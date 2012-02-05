@@ -1,0 +1,10 @@
+category: Editors
+requires: emacs texinfo texlive texlive-collection-basic texlive-collection-latex texlive-collection-latexrecommended texlive-collection-texinfo
+sdesc: "TeX macros for Emacs"
+ldesc: "AUCTEX is an extensible package for writing and formatting TEX 
+files in GNU Emacs and XEmacs. It supports many different TEX macro 
+packages, including AMS-TEX, LATEX, Texinfo, ConTEXt, and docTEX (dtx 
+files). AUCTEX includes preview-latex which makes LATEX a tightly 
+integrated component of your editing workflow by visualizing selected 
+source chunks (such as single formulas or graphics) directly as images 
+in the source buffer."

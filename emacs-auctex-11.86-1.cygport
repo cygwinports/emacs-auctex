@@ -1,0 +1,11 @@
+
+HOMEPAGE="http://www.gnu.org/software/auctex/"
+SRC_URI="mirror://gnu/auctex/${P#emacs-}.tar.gz"
+SRC_DIR=${P#emacs-}
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygconf --localstatedir=/var/lib
+	cygmake
+}
